@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+	<HTML lang="es">
+	<head>
+		<meta charset="utf8">
+		<meta name="decripcion" content="Ejercicio 1 de programacion web">
+		<meta content="width=device-width", initial-scale="1", minimun-scale="1" name="viewport">
+		<meta name ="keywords" content ="programacion, web">
+		<title>jercicio 1 de programacion web</title>
+		<link rel="stylesheet" href="misestilos.css">
+		
+	</head>
+	<body>
+		<div id="agrupar">
+			<header id="cabecera">
+				<h1>titulo de mi sitio</h1>
+			</header>
+			<nav id="menu">
+				<ul>
+					<li>Inicio</li>
+					<li>Quienes somos</li>
+					<li>Sistemas</li>
+					<li>Contactos</li>
+				</ul>
+			</nav>
+			<section id="seccion">
+				<article>
+					<header>
+						<time datetime="2015-04-19T11:18:22" pubdate>Publicado el 19-04-2015</time>
+						<h2>Titulo de la seccion principal</h2>
+					</header>
+					<span>Esta es la <mark>primera</mark> linea d la <cite>seccion</cite> principal</span>
+					<p>Este es un parrafo de la seccion pricipal</p>
+					<p class="texto1">Este s un parrafo con clase</p>
+					<figure>
+						<img src="manos.jpg">
+							<figcaption>
+								Esta es la imagen del mensaje
+							</figcaption>
+					</figure>
+					<footer>
+						<address>
+						<a href="http://notitarde.com">Notitarde</a>
+						</address>
+						<small>Pie de pagina</small>
+					</footer>
+				</article>
+			</section>
+			<aside id="columna">
+			<h3>Primer mensaje de la columna lateral</h3>
+			<h3>Segundo mensaje de la columna lateral</h3>
+			</aside>
+			<footer id="pie">
+			<small> Derechos Reservados</small>
+		</footer>
+		</div>
+	</body>
+<html>
